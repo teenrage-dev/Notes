@@ -1,5 +1,10 @@
 import { Notes } from './Notes/Notes';
+import css from './index.module.css';
 
 export const App = () => {
-  return <Notes />;
+  return (
+    <div className={css.container}>
+      <Notes />
+    </div>
+  );
 };
