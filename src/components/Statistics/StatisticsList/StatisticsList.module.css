@@ -1,0 +1,87 @@
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #4e4e4e;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.itemContainer {
+  background-color: #b0b4b66c;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px;
+  padding-left: 55px;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  justify-content: start;
+}
+
+.itemContainer:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.itemIconBox {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4e4e4e;
+}
+
+.itemTitleBox {
+  width: 20%;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 5px;
+}
+
+.item {
+  width: 20%;
+}
+
+.item:first-child {
+  width: 40px;
+}
+
+.item:nth-child(2) {
+  width: 40%;
+}
+
+.item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.btn {
+  width: 100%;
+  max-width: 50px;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  color: #9b9b9b;
+  cursor: default;
+}
+
+.archivedBtn:hover {
+  cursor: pointer;
+  color: #303030;
+}
+
+.icon {
+  fill: #f0f0f0;
+  width: 25px;
+  height: 25px;
+}

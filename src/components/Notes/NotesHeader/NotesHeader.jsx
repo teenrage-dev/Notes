@@ -3,7 +3,7 @@ import React from 'react';
 import { AiTwotoneDelete } from 'react-icons/ai';
 import { BiArchiveIn } from 'react-icons/bi';
 
-export const NotesHeader = () => {
+export const NotesHeader = ({ onDelete, onArchived }) => {
   return (
     <header className={css.section}>
       <div className={css.container}>
@@ -36,14 +36,14 @@ export const NotesHeader = () => {
             </li>
             <li className={css.headerItem}>
               <div className={css.itemContainer}>
-                <button id="archived-all" className={css.itemBtn}>
+                <button className={css.itemBtn} onClick={onArchived}>
                   <BiArchiveIn className={css.itemIcon} />
                 </button>
               </div>
             </li>
             <li className={css.headerItem}>
               <div className={css.itemContainer}>
-                <button id="delete-all" className={css.itemBtn}>
+                <button className={css.itemBtn} onClick={onDelete}>
                   <AiTwotoneDelete className={css.itemIcon} size="1em" />
                 </button>
               </div>

@@ -123,6 +123,8 @@
   fill: #9b9b9b;
 }
 
-/* .notes-icon {
-  fill: #9b9b9b;
-} */
+.icon {
+  fill: #f0f0f0;
+  width: 25px;
+  height: 25px;
+}
