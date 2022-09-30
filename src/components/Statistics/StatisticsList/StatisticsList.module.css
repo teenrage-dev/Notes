@@ -17,7 +17,7 @@
   align-items: center;
   width: 100%;
   position: relative;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .itemContainer:not(:last-child) {
