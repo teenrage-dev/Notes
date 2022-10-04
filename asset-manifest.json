@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/teenrage-dev/Notes/static/css/main.8f17bde0.css",
-    "main.js": "/teenrage-dev/Notes/static/js/main.a06adbd6.js",
-    "index.html": "/teenrage-dev/Notes/index.html",
-    "main.8f17bde0.css.map": "/teenrage-dev/Notes/static/css/main.8f17bde0.css.map",
-    "main.a06adbd6.js.map": "/teenrage-dev/Notes/static/js/main.a06adbd6.js.map"
+    "main.css": "/static/css/main.8f17bde0.css",
+    "main.js": "/static/js/main.a06adbd6.js",
+    "index.html": "/index.html",
+    "main.8f17bde0.css.map": "/static/css/main.8f17bde0.css.map",
+    "main.a06adbd6.js.map": "/static/js/main.a06adbd6.js.map"
   },
   "entrypoints": [
     "static/css/main.8f17bde0.css",
